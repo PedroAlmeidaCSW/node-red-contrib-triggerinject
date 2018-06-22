@@ -4,7 +4,8 @@
     "description": "reinject the last received message when pressing on the button",
     "license": "Apache-2.0",
     "repository": {
-        "type": "github"
+        "type": "github",
+        "url":"https://github.com/jorisadri/node-red-contrib-reinject"
     },
     "keywords": [
         "node-red",
