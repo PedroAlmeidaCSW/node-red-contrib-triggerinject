@@ -1,0 +1,24 @@
+{
+    "name": "node-red-contrib-reinject",
+    "version": "0.0.1",
+    "description": "reinject the last received message when pressing on the button",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "github"
+    },
+    "keywords": [
+        "debug",
+        "reinject",
+        "inject",
+        "resend",
+        "send"
+    ],
+    "node-red": {
+        "nodes": {
+            "reinject": "reinject/reinject.js"
+        }
+    },
+    "engines": {
+        "node": ">=8"
+    }
+}
