@@ -7,7 +7,7 @@
         "type": "github"
     },
     "keywords": [
-        "node-red"
+        "node-red",
         "debug",
         "reinject",
         "inject",
