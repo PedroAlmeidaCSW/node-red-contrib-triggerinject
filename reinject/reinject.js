@@ -22,7 +22,6 @@ module.exports = function (RED) {
                 const keys = Object.keys(msg);
                 if (keys.length === 1) {
                     const savedMsg = context.get(node.id);
-                    node.send(savedMsg);
                 } else {
                     context.set(node.id, msg);
                     node.send(msg);
